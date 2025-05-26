@@ -40,12 +40,12 @@ Missing Values:
 3. Dropped Cabin due to high missingness.
 
 Encoding:
-Applied Label Encoding to Sex.
-Applied One-Hot Encoding to Embarked.
+1. Applied Label Encoding to Sex.
+2. Applied One-Hot Encoding to Embarked.
 
 Outliers:
-Detected and removed outliers using the IQR method for Age and Fare.
+1. Detected and removed outliers using the IQR method for Age and Fare.
 
 Standardization:
-Used StandardScaler to normalize Age and Fare.
+1. Used StandardScaler to normalize Age and Fare.
 
