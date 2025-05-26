@@ -59,9 +59,9 @@ Columns in the Dataset:
 
 # Visualizations
 
-- Boxplot- Age:![Box plot- Age](https://github.com/user-attachments/assets/4dcc4ff3-62f6-4ae4-8470-793314166ea6)
+![Box plot- Age](https://github.com/user-attachments/assets/4dcc4ff3-62f6-4ae4-8470-793314166ea6)
   
-- Boxplot- Fare:![Box Plot- Fare](https://github.com/user-attachments/assets/f15d215f-2d7f-4a4e-b89c-3e5c3cc416e0)
+![Box Plot- Fare](https://github.com/user-attachments/assets/f15d215f-2d7f-4a4e-b89c-3e5c3cc416e0)
 
 # Final Output
 
