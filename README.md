@@ -34,7 +34,7 @@ PassengerId, Survived (0 = No, 1 = Yes), Pclass (Ticket class: 1 = 1st, 2 = 2nd,
 6. Save the cleaned dataset for further use.
 
 # Exploratory Data Analysis (EDA)
- # Missing Values:
+Missing Values:
 1. Filled Age with median.
 2. Filled Embarked with mode.
 3. Dropped Cabin due to high missingness.
