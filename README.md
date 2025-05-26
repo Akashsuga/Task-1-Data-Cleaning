@@ -34,6 +34,7 @@ Columns in the Dataset:
 - Save the cleaned dataset for further use.
 
 # Exploratory Data Analysis (EDA)
+
 1. Missing Values:
 - Filled Age with median.
 - Filled Embarked with mode.
@@ -50,10 +51,19 @@ Columns in the Dataset:
 - Used StandardScaler to normalize Age and Fare.
 
 # Insights
+
 - Age and Fare contained significant outliers which were visualized using boxplots.
 - Categorical values like Sex and Embarked were successfully encoded.
 - Null values in critical features were handled to avoid bias.
 - After preprocessing, the data is now ML-ready.
 
 # Visualizations
-- Boxplot- Age
+
+- Boxplot- Age : ![Box plot- Age](https://github.com/user-attachments/assets/4dcc4ff3-62f6-4ae4-8470-793314166ea6)
+  
+- Boxplot- Fare : ![Box Plot- Fare](https://github.com/user-attachments/assets/f15d215f-2d7f-4a4e-b89c-3e5c3cc416e0)
+
+# Final Output
+
+- Cleaned dataset: [Cleaned_Titanic.csv](https://github.com/user-attachments/files/20444148/Cleaned_Titanic.csv)
+  
