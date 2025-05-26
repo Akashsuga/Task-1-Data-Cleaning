@@ -1,7 +1,7 @@
 # Task-1-Data-Cleaning
-Cleaned and preprocessed Titanic dataset including null handling, encoding, normalization, and outlier treatment.
+- Cleaned and preprocessed Titanic dataset including null handling, encoding, normalization, and outlier treatment.
 
-  This repository contains the first task of the AI & ML Internship: Data Cleaning and Preprocessing using the Titanic Dataset. The goal is to prepare raw data for Machine Learning by performing essential preprocessing steps.
+- This repository contains the first task of the AI & ML Internship: Data Cleaning and Preprocessing using the Titanic Dataset. The goal is to prepare raw data for Machine Learning by performing essential preprocessing steps.
 
 # Task Details
 
@@ -19,10 +19,10 @@ Original Dataset - [Titanic-Dataset.csv](https://github.com/user-attachments/fil
 
 # Dataset Overview
 
-The Titanic dataset contains data of passengers who were on board the Titanic ship. It includes details like age, sex, fare, class, survival status, and more.
+- The Titanic dataset contains data of passengers who were on board the Titanic ship. It includes details like age, sex, fare, class, survival status, and more.
 
 Columns in the Dataset:
-PassengerId, Survived (0 = No, 1 = Yes), Pclass (Ticket class: 1 = 1st, 2 = 2nd, 3 = 3rd), Name, Sex, Age, SibSp (Number of siblings/spouses aboard), Parch (Number of parents/children aboard), Ticket, Fare, Cabin, Embarked (Port of Embarkation: C = Cherbourg, Q = Queenstown, S = Southampton)
+- PassengerId, Survived (0 = No, 1 = Yes), Pclass (Ticket class: 1 = 1st, 2 = 2nd, 3 = 3rd), Name, Sex, Age, SibSp (Number of siblings/spouses aboard), Parch (Number of parents/children aboard), Ticket, Fare, Cabin, Embarked (Port of Embarkation: C = Cherbourg, Q = Queenstown, S = Southampton)
 
 # Objectives
 
@@ -56,4 +56,4 @@ PassengerId, Survived (0 = No, 1 = Yes), Pclass (Ticket class: 1 = 1st, 2 = 2nd,
 - After preprocessing, the data is now ML-ready.
 
 # Visualizations
-- Box
+- Boxplot- Age
