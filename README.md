@@ -5,13 +5,13 @@ Cleaned and preprocessed Titanic dataset including null handling, encoding, norm
 
 # Task Details
 
-Task Name: Task 1 - Data Cleaning & Preprocessing
+- Task Name: Task 1 - Data Cleaning & Preprocessing
 
-Conducted by: AI & ML Internship
+- Conducted by: AI & ML Internship
 
-Objective: To clean raw Titanic dataset and make it suitable for ML models
+- Objective: To clean raw Titanic dataset and make it suitable for ML models
 
-Tools Used: Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
+- Tools Used: Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
 
 # Resource Used
 
@@ -26,34 +26,34 @@ PassengerId, Survived (0 = No, 1 = Yes), Pclass (Ticket class: 1 = 1st, 2 = 2nd,
 
 # Objectives
 
-1. Understand and explore the dataset.
-2. Handle missing values effectively.
-3. Encode categorical features for ML compatibility.
-4. Standardize numerical columns (Age, Fare).
-5. Visualize and remove outliers.
-6. Save the cleaned dataset for further use.
+- Understand and explore the dataset.
+- Handle missing values effectively.
+- Encode categorical features for ML compatibility.
+- Standardize numerical columns (Age, Fare).
+- Visualize and remove outliers.
+- Save the cleaned dataset for further use.
 
 # Exploratory Data Analysis (EDA)
-Missing Values:
-1. Filled Age with median.
-2. Filled Embarked with mode.
-3. Dropped Cabin due to high missingness.
+1. Missing Values:
+- Filled Age with median.
+- Filled Embarked with mode.
+- Dropped Cabin due to high missingness.
 
-Encoding:
-1. Applied Label Encoding to Sex.
-2. Applied One-Hot Encoding to Embarked.
+2. Encoding:
+- Applied Label Encoding to Sex.
+- Applied One-Hot Encoding to Embarked.
 
-Outliers:
-1. Detected and removed outliers using the IQR method for Age and Fare.
+3. Outliers:
+- Detected and removed outliers using the IQR method for Age and Fare.
 
-Standardization:
-1. Used StandardScaler to normalize Age and Fare.
+4. Standardization:
+- Used StandardScaler to normalize Age and Fare.
 
 # Insights
 - Age and Fare contained significant outliers which were visualized using boxplots.
+- Categorical values like Sex and Embarked were successfully encoded.
+- Null values in critical features were handled to avoid bias.
+- After preprocessing, the data is now ML-ready.
 
-Categorical values like Sex and Embarked were successfully encoded.
-
-Null values in critical features were handled to avoid bias.
-
-After preprocessing, the data is now ML-ready.
+# Visualizations
+- Box
