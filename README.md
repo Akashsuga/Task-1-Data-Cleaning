@@ -22,18 +22,7 @@ Original Dataset - [Titanic-Dataset.csv](https://github.com/user-attachments/fil
 The Titanic dataset contains data of passengers who were on board the Titanic ship. It includes details like age, sex, fare, class, survival status, and more.
 
 Columns in the Dataset:
-PassengerId
-Survived (0 = No, 1 = Yes)
-Pclass (Ticket class: 1 = 1st, 2 = 2nd, 3 = 3rd)
-Name
-Sex
-Age
-SibSp (Number of siblings/spouses aboard)
-Parch (Number of parents/children aboard)
-Ticket
-Fare
-Cabin
-Embarked (Port of Embarkation: C = Cherbourg, Q = Queenstown, S = Southampton)
+PassengerId, Survived (0 = No, 1 = Yes), Pclass (Ticket class: 1 = 1st, 2 = 2nd, 3 = 3rd), Name, Sex, Age, SibSp (Number of siblings/spouses aboard), Parch (Number of parents/children aboard), Ticket, Fare, Cabin, Embarked (Port of Embarkation: C = Cherbourg, Q = Queenstown, S = Southampton)
 
 # Objectives
 
@@ -46,9 +35,9 @@ Embarked (Port of Embarkation: C = Cherbourg, Q = Queenstown, S = Southampton)
 
 # Exploratory Data Analysis (EDA)
 Missing Values:
-Filled Age with median.
-Filled Embarked with mode.
-Dropped Cabin due to high missingness.
+ Filled Age with median.
+ Filled Embarked with mode.
+ Dropped Cabin due to high missingness.
 
 Encoding:
 Applied Label Encoding to Sex.
