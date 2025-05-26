@@ -49,3 +49,11 @@ Outliers:
 Standardization:
 1. Used StandardScaler to normalize Age and Fare.
 
+# Insights
+- Age and Fare contained significant outliers which were visualized using boxplots.
+
+Categorical values like Sex and Embarked were successfully encoded.
+
+Null values in critical features were handled to avoid bias.
+
+After preprocessing, the data is now ML-ready.
